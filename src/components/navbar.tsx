@@ -1,5 +1,5 @@
+"use client"
 import Link from "next/link";
-import Search from "./search";
 export default function Navbar() {
   return (
     <nav className="flex items-center justify-between h-16 px-32">
@@ -11,7 +11,6 @@ export default function Navbar() {
         <Link href="/">About</Link>
       </ul>
       <div>
-      <Search/>
       </div>
     </nav>
   );
